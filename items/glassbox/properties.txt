@@ -1,0 +1,39 @@
+"Properties"
+	{
+	"Authors"     "Aneonen"
+	"Tags"        "Glass;Glassbox;Box;Relay;Laser;Catcher;Cube"
+	"Description" 
+		{
+		"" "Glass boxes of several different sizes, designed primarily to be placed over relays or around laser catchers when allowing cubes to intersect a laser close to either input is undesired.   "
+		"" "Can also be used to seal dropperless cubes if the dropperless cube is placed in the center of a surface.   "
+		"" "Not meant to be entered by players."
+		"" ""
+		"" "**Button Type:**   "
+		"" "*Button Type* changes the type of glass box that is placed:"
+		"" "- *Weighted* will place a 2x2x2-tile glass cube, enough to enclose a single relay."
+		"" "- *Cube* will place a 4x2x2-tile glass box. Rotating the item will rotate the direction of this box."
+		"" "- *Sphere* will place a 4x4x2-tile glass box, for when intersecting lasers from any angle is dangerous."
+		"" ""
+		"" "**Cube Type:**   "
+		"" "*Cube Type* replicates the 5-position functionality of laser catchers/relays, which is otherwise hard-coded to those items."
+		"" "- *Standard* will place the box in the center of the surface."
+		"" "- *Companion* will place the box where a relay would be in the direction the item faces."
+		"" "- *Reflective* will place the box as *Companion* does, but one quarter turn clockwise around the center of the surface."
+		"" "- *Sphere* will place the box as *Companion* does, but two quarter turns clockwise."
+		"" "- *Franken* will place the box as *Companion* does, but three quarter turns clockwise."
+		}
+	"ent_count"   "17-25"
+	
+	"all_name"    "Glass Boxes"
+	"all_icon"    "palette/aneonen/glassbox_all.png"
+	"Icon"
+		{
+			"all" "clean/aneonen/glassbox_all.png"
+			"0"   "clean/aneonen/glassbox_cube.png"
+			"1"   "clean/aneonen/glassbox_oblong.png"
+			"2"   "clean/aneonen/glassbox_bigflat.png"
+		}
+	}
+
+
+//It is possible that these items could be templated so the glass changes, or something of that kind. I'm a little behind on this type of templating (does it use a scaling template?) and so I may investigate another day.

@@ -1,0 +1,1260 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "37"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "37"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "3627"
+		side
+		{
+			"id" "134"
+			"plane" "(-64 -64 0) (-64 64 0) (64 64 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "133"
+			"plane" "(-64 64 -64) (-64 -64 -64) (64 -64 -64)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "132"
+			"plane" "(-64 -64 -64) (-64 64 -64) (-64 64 0)"
+			"material" "TILE/WHITE_WALL_TILE003C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "131"
+			"plane" "(64 64 -64) (64 -64 -64) (64 -64 0)"
+			"material" "TILE/WHITE_WALL_TILE003H"
+			"uaxis" "[0 0 1 256] 0.25"
+			"vaxis" "[0 1 0 256] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "130"
+			"plane" "(-64 64 -64) (64 64 -64) (64 64 0)"
+			"material" "TILE/WHITE_WALL_TILE003C"
+			"uaxis" "[1 0 0 252] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "129"
+			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 0)"
+			"material" "TILE/WHITE_WALL_TILE003C"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 104 109"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "4275"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6741"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6745"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6749"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6753"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6757"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6761"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6765"
+		editor
+		{
+			"color" "0 142 175"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "6464"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -16 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6467"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -48 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6470"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -48 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6473"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6476"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6479"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 48 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6482"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 48 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6485"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 16 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6488"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -16 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6491"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -48 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6494"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -16 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6506"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 -48 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6509"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 16 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6515"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 48 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6524"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 64 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6527"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6530"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6533"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6536"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6539"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6542"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6545"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6548"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6554"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 -64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6557"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 -64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6560"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 -64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6563"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 -64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6578"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 -64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6581"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 -64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6584"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 -64 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6587"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 -64 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6590"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 -64 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6742"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 -16 -16"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "6741"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6746"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 16 -16"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "6745"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6750"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 48 -16"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "6749"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6754"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 48 -48"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "6753"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6758"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 16 -48"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "6757"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6762"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 -16 -48"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "6761"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6766"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 -48 -48"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "6765"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6791"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 -48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6794"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 -48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6797"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 -48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6800"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 -16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6803"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 -16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6806"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 -16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6809"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 -16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6812"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6815"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6818"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6821"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6824"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-48 48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6827"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-16 48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6830"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "16 48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6833"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3340"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 -48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3361"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 64 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3367"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 48 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3370"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "64 16 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3388"
+	"classname" "bee2_template_conf"
+	"detail_auto_visgroup" "0"
+	"discard_brushes" "0"
+	"is_scaling" "0"
+	"overlay_faces" "109"
+	"realign_faces" "108 110 107 131 130 129 132"
+	"temp_type" "default"
+	"template_id" "ANEONEN_TEMPL_STEEP_BLOCK_FLIPPED"
+	"vertical_faces" "109"
+	"origin" "-1 0 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3391"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "3392"
+		side
+		{
+			"id" "106"
+			"plane" "(64 64 0) (-64 64 0) (-64 -64 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "107"
+			"plane" "(-64 64 0) (64 64 0) (64 64 64)"
+			"material" "TILE/WHITE_WALL_TILE003F"
+			"uaxis" "[1 0 0 384] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "108"
+			"plane" "(64 -64 0) (-64 -64 0) (64 -64 64)"
+			"material" "TILE/WHITE_WALL_TILE003F"
+			"uaxis" "[1 0 0 384] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "109"
+			"plane" "(64 -64 64) (-64 -64 0) (-64 64 0)"
+			"material" "TILE/WHITE_WALL_TILE003H"
+			"uaxis" "[0 1 0 256] 0.25"
+			"vaxis" "[1 0 0 256] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "110"
+			"plane" "(64 64 64) (64 64 0) (64 -64 0)"
+			"material" "TILE/WHITE_WALL_TILE003H"
+			"uaxis" "[0 0 1 256] 0.25"
+			"vaxis" "[0 1 0 256] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3843"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "48 -64 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4118"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 90 90"
+	"color" "tile"
+	"skin" "4"
+	"origin" "-64 -48 -16"
+	editor
+	{
+		"color" "0 142 175"
+		"groupid" "4275"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

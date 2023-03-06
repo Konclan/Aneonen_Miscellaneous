@@ -1,0 +1,190 @@
+"Item"
+	{
+	"ItemClass" "ItemLightStrip"
+	"Type"      "ITEM_ANGLED_BRIDGE_ANN"
+	"Editor"
+		{
+		"SubTypeProperty"		"StartReversed"
+		"SubType"
+			{
+			"Name"			"Angled Bridge"
+			"Model"
+				{
+				//I do not have/have not investigated the ability to edit models
+				//In order for all of the model files to match up, they need to be within the same
+				//	directory as specified within the files themselves. Thus, we replicate the directory
+				//	from Konclan's package. This will be redundant if users already have Konclan's items,
+				//	but they might not! 
+				"ModelName"	"bee2/konclan/protruding_lightbridge/protruding_lightbridge.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"ANGLED BRIDGE"
+				"Image"			"palette/aneonen/angbridge.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.DropperEnabled"
+				"SOUND_DELETED"					"P2Editor.RemoveButton"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Angled Bridge"
+			"Model"
+				{
+				"ModelName"	"bee2/konclan/protruding_lightbridge/protruding_lightbridge_rev.3ds"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.DropperEnabled"
+				"SOUND_DELETED"					"P2Editor.RemoveButton"
+				}
+			}
+		"MovementHandle"		"HANDLE_8_POSITIONS"
+		"OccupiesVoxel"         "0"
+		}
+	"Properties"
+		{
+		"CubeType"
+			{
+			"DefaultValue"		"0"
+			"Index"			"1"
+			}
+		"StartEnabled"
+			{
+			"DefaultValue"		"1"
+			"Index"			"2"
+			}
+		"StartReversed"
+			{
+			"DefaultValue"		"0"
+			"Index"			"3"
+			}
+		"StartOpen"
+			{
+			"DefaultValue"		"1"
+			"Index"			"4"
+			}
+		}
+	"Exporting"
+		{
+		"Inputs"
+		{
+			"BEE2"
+			{
+			"Type" "AND"
+			"invertVar" "$start_enabled"
+			"spawnFire" "always"
+			"Enable_Cmd"    "ang_bridge,Enable,,0.00,-1"
+			"Disable_Cmd"    "ang_bridge,Disable,,0.00,-1"
+			}
+		}
+		"Instances"
+			{
+			"0"
+				{
+				"Name"				"instances/BEE2/items/aneonen/dummy_vmf_angbridge.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"1"
+				"BrushSideCount"	"6"
+				}
+
+			}
+
+		//Taken directly from Konclan's protruding bridge
+		"ConnectionPoints"
+			{
+			// Forward
+			"Point"
+				{
+				"Dir" "1 0 0"
+				"Pos" "2 1 0"
+				"SignageOffset" "1 0 0"
+				"Priority" "1"
+				"GroupID" "0"
+				}
+			"Point"
+				{
+				"Dir" "1 0 0"
+				"Pos" "2 3 0"
+				"SignageOffset" "1 2 0"
+				"Priority" "0"
+				"GroupID" "0"
+				}
+			"Point"
+				{
+				"Dir" "1 0 0"
+				"Pos" "2 4 0"
+				"SignageOffset" "1 5 0"
+				"Priority" "0"
+				"GroupID" "0"
+				}
+			"Point"
+				{
+				"Dir" "1 0 0"
+				"Pos" "2 6 0"
+				"SignageOffset" "1 7 0"
+				"Priority" "1"
+				"GroupID" "0"
+				}
+			// Backwards
+			"Point"
+				{
+				"Dir" "-1 0 0"
+				"Pos" "5 1 0"
+				"SignageOffset" "6 0 0"
+				"Priority" "1"
+				"GroupID" "1"
+				}
+			"Point"
+				{
+				"Dir" "-1 0 0"
+				"Pos" "5 3 0"
+				"SignageOffset" "6 2 0"
+				"Priority" "0"
+				"GroupID" "0"
+				}
+			"Point"
+				{
+				"Dir" "-1 0 0"
+				"Pos" "5 4 0"
+				"SignageOffset" "6 5 0"
+				"Priority" "0"
+				"GroupID" "1"
+				}
+			"Point"
+				{
+				"Dir" "-1 0 0"
+				"Pos" "5 6 0"
+				"SignageOffset" "6 7 0"
+				"Priority" "1"
+				"GroupID" "1"
+				}
+			// Left
+			"Point"
+				{
+				"Dir" "0 1 0"
+				"Pos" "4 -1 0"
+				"SignageOffset" "3 -2 0"
+				"Priority" "0"
+				"GroupID" "2"
+				}
+			// Right
+			"Point"
+				{
+				"Dir" "0 -1 0"
+				"Pos" "4 8 0"
+				"SignageOffset" "3 9 0"
+				"Priority" "0"
+				"GroupID" "3"
+				}
+			}
+        "TargetName" "angbrg"
+        "Offset" "64 64 64"
+        }
+    }

@@ -1,0 +1,109 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "19"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "19"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "3038"
+	"classname" "light"
+	"_distance" "0"
+	"_fifty_percent_distance" "48"
+	"_hardfalloff" "1"
+	"_light" "50 120 250 50"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "2"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "96"
+	"spawnflags" "0"
+	"style" "0"
+	"targetname" "light_blue"
+	"origin" "-10.3344 0 -28.2229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 18]"
+	}
+}
+entity
+{
+	"id" "3043"
+	"classname" "light"
+	"_distance" "0"
+	"_fifty_percent_distance" "48"
+	"_hardfalloff" "1"
+	"_light" "250 120 50 50"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "2"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "96"
+	"spawnflags" "1"
+	"style" "0"
+	"targetname" "light_orange"
+	"origin" "-10.3344 0 -28.2229"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 19]"
+	}
+}
+entity
+{
+	"id" "175"
+	"classname" "func_instance_parms"
+	"parm1" "$connectioncount integer 1"
+	"parm2" "$connectioncount_polarity integer 1"
+	"parm3" "$start_enabled integer 1"
+	"parm4" "$start_reversed integer 0"
+	"parm5" "$linear_force integer 250"
+	"origin" "-21.0675 0 -6.75666"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-3.44346 -95.9411 6.37695]"
+		"look" "[-3.13966 -90.5086 4.85767]"
+	}
+}
+cordons
+{
+	"active" "0"
+}

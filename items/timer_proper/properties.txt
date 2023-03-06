@@ -1,0 +1,33 @@
+"Properties"
+	{
+	"Authors"     "Aneonen, TeamSpen210"
+	"Tags"        "BEE2;Timer;Indicator"
+	"Description" 
+		{
+		"" "A placeable timer indicator.   "
+		"" "Appears identical to the timer placed by standard puzzlemaker connections. Intended to be used in conjunction with the antline corner. Connection visibility should realistically always be set to none."
+		"" ""
+		"" "**Start Enabled:**   "
+		"" "*When Checked*, the timer will begin to count down when activated.   "
+		"" "*When Unchecked*, the timer will begin to count down when deactivated.   "
+		"" ""
+		"" "**Start Open:**   "
+		"" "*When Checked*, the timer will emit a ticking sound as it runs."
+		"" ""
+		"" "**Start Reversed:**   "
+		"" "*Start Reversed* changes the position of the indicator on the surface, as the quarter tile item does."
+		"" ""
+		"" "**Timer Delay:**  "
+		"" "The task of determining the function of the *Timer Delay* on the Timer Item is left to the reader."
+		}
+	
+	"ent_count"   "5"
+	"Icon"
+		{
+		"0" "clean/aneonen/timer_proper.png"
+		}
+	}
+
+//See Checkmark item for relevant comments.
+
+//I wonder if the ticking can be made more efficient/pleasant.

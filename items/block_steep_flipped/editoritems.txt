@@ -1,0 +1,93 @@
+"Item"
+	{ 
+	"Type"			"ITEM_BLOCK_STEEP_FLIPPED_ANN"
+	"ItemClass"			"ItemButtonFloor"
+	"Editor"
+		{
+		"SubType"
+			{
+			"Name"			"Steep Angled Block Flipped"
+			"Model"
+				{
+				"ModelName"		"bee2_angled_30.mdl"
+				}
+			"Palette"
+				{
+				"Tooltip"		"STEEP FLIPPED"
+				"Image"		"palette/aneonen/steep_block_flipped.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.DropperEnabled"
+				"SOUND_DELETED"					"P2Editor.RemoveButton"
+				}
+			}
+		"MovementHandle"    "HANDLE_4_DIRECTIONS"
+		"DesiredFacing"     "DESIRES_DOWN"
+		}
+	"Properties"
+		{
+		"StartReversed"
+			{
+			"DefaultValue"  "0"
+			"Index"         "1"
+			}
+		"StartEnabled"
+			{
+			"DefaultValue"	"1"
+			"Index"		"2"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name"				"instances/items/aneonen/dummy_vmf_blocksteepflipped_1.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"2"
+				"BrushSideCount"	"11"
+				}
+			"1"
+				{
+				"Name"				"instances/items/aneonen/dummy_vmf_blocksteepflipped_2.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"2"
+				"BrushSideCount"	"11"
+				}
+			"2"
+				{
+				"Name"				"instances/items/aneonen/dummy_vmf_blocksteepflipped_3.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"2"
+				"BrushSideCount"	"11"
+				}
+			"3"
+				{
+				"Name"				"instances/items/aneonen/dummy_vmf_blocksteepflipped_4.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"2"
+				"BrushSideCount"	"11"
+				}
+			"4"
+				{
+				"Name"				"instances/items/aneonen/dummy_vmf_blocksteepflipped_5.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"2"
+				"BrushSideCount"	"11"
+				}
+			"5"
+				{
+				"Name"				"instances/items/aneonen/dummy_vmf_blocksteepflipped_6.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"2"
+				"BrushSideCount"	"11"
+				}
+			}
+		"TargetName"		"stpflp"
+		"Offset"	"64 64 64"
+		}
+	}

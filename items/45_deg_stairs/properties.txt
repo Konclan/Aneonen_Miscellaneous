@@ -1,0 +1,42 @@
+"Properties"
+	{
+	"Authors" "Aneonen"
+	"Tags" "45 Degree; 45; Stairs; 45 Degree Stairs; Slope; Flat; Aneonen"
+	"Description"
+		{
+		"" "45 Degree Stairs that feature either slightly sloped or dense flat stairs.   "
+		"" ""
+		"" "**Cube Type:**   "
+		"" "*Cube Type* determines the stair component. Different components can be arranged to make larger staircases."
+		"" "- *Standard* forms a 1 voxel wide single 45-degree staircase."
+		"" "- *Companion* forms the left edge of a wider staircase."
+		"" "- *Reflective* forms the a center piece of a wider staircase."
+		"" "- *Sphere* forms the right edge of a wider staircase."
+		"" "- *Franken* forms an independent stair that is not meant to have edges and can be combined with other Franken stairs freely, similar to the standard block stairs."
+		"" ""
+		"" "__Start Enabled__, when checked, will switch the item to a dense, flat staircase instead of the standard semi-sloped one."
+		"" "" 
+		"" ""
+		"" "Note that the stair items have __nodraw__ (invisible-like) textures on faces that are not meant to be exposed; if you see nodraw, the stairs are being configured incorrectly!"
+		}
+		"ent_count" "0"
+
+		"all_name"    "45 Degree Stairs"
+		"all_icon"    "palette/aneonen/45_stairs_all.png"
+		"Icon"
+		{
+			"all" "clean/aneonen/45_stairs_all.png"
+			"0"   "clean/aneonen/slopestairs.png"
+			"1"   "clean/aneonen/flatstairs.png"
+		}
+	}
+
+//These stairs are made slightly less efficient than my personal version in exchange for being more flexible
+//They could potentially use some changes in the future. Like the standard BEE funnel frame (and presumably some other templates),
+//	the surface could be checked before template selection and a more efficinet set of stairs could be chosen if there were no color
+//	differences per row. This would be particularly helpful for the flat stairs.
+//The flat stairs could also be pushed back slightly and any voxel behind the item could be textured with squarebeams, as is the case
+//	with the standard block stairs. Right now they push out a little to make elevating to glass/etc. a little cleaner and to keep consistent
+//	with the sloped stairs, which can`t be pushed back so easily.
+//TeamSpen has also proposed that some functionality could be implemented to check adjacent items and automatically shift the block stairs component accordingly.
+//The lightmap scaling is a little inexperienced right now as well, and might be inefficient. 

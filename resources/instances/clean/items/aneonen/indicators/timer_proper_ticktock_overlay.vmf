@@ -1,0 +1,102 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8997"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "Portal.room1_TickTock"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "timer_tick_sound"
+	"origin" "0 0 -45.432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "logic_timer"
+	"RefireTime" "1"
+	"StartDisabled" "1"
+	"targetname" "ticktock_timer"
+	connections
+	{
+		"OnTimer" "ticktock_counterAdd10-1"
+	}
+	"origin" "0 0 -2.56798"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "math_counter"
+	"max" "$timer_delay"
+	"min" "0"
+	"startvalue" "0"
+	"targetname" "ticktock_counter"
+	connections
+	{
+		"OutValue" "timer_tick_soundPlaySound0-1"
+		"OnHitMax" "ticktock_counterDisable0-1"
+		"OnHitMax" "ticktock_counterSetValue00-1"
+		"OnHitMax" "ticktock_timerDisable0-1"
+	}
+	"origin" "0 0 13.432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

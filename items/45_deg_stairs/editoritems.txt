@@ -1,0 +1,85 @@
+"Item"
+	{
+	"Type" "ITEM_45_DEG_STAIRS_ANN"
+	"Editor"
+		{
+		"SubTypeProperty"	"StartEnabled"
+		"SubType"
+			{	
+			"Name" "45 Degree Sloped Stairs"
+			"Model"
+				{
+				"ModelName" "bee2_angled_45.mdl"
+				}
+			"Palette"
+				{
+				"Tooltip" "45 DEG STAIRS"
+				"Image" "palette/aneonen/slopestairs.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+				}
+			}
+			"SubType"
+			{	
+			"Name" "45 Degree Flat Stairs"
+			"Model"
+				{
+				"ModelName" "bee2_angled_45.mdl"
+				}
+			"Palette"
+				{
+				"Tooltip" "45 DEG STAIRS"
+				"Image" "palette/aneonen/flatstairs.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+				}
+			}
+			"MovementHandle" "HANDLE_4_DIRECTIONS"
+			"CanAnchorOnBarriers" "0"
+		}
+	"Properties"
+		{
+		"CubeType"
+			{
+			"DefaultValue" "0"
+			"Index" "1"
+			}
+		"StartEnabled"
+			{
+			"DefaultValue" "1"
+			"Index"	"2"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name" "instances/bee2/clean/items/aneonen/45_stairs/45_stairs_clip.vmf"
+				"EntityCount" "0"
+				"BrushCount" "7"
+				"BrushSideCount" "44"
+				}
+			"1"
+				{
+				"Name" "instances/bee2/clean/items/aneonen/45_stairs/45_stairs_clip.vmf"
+				"EntityCount" "0"
+				"BrushCount" "7"
+				"BrushSideCount" "44"
+				}
+			}
+		"TargetName" "45dgstrsaneonen"
+		"Offset" "64 64 64"
+		}
+	}

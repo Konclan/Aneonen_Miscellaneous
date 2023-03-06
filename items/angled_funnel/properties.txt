@@ -1,0 +1,60 @@
+"Properties"
+	{
+	"Authors"		"Aneonen"
+	"Tags"		"Portal 2; Test Elements; Funnel; Tractor Beam; Angled; Aneonen"
+	"infoURL"		"https://developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Tractor_Beam"
+	"Description"
+		{
+		"" "An angled funnel that can be set to five different angles, described below."
+		"" ""
+		"" "**IMPORTANT:**   "
+		"" "This item uses *A/B Inputs* in order to control both the ability to change the funnel's active state and the funnel's polarity, as the normal interface cannot be transferred from the original funnel item.   "
+		"" "To connect inputs into this item:   "
+		"" "1. Place the *A/B Input* items into your map. They can be found among BEE's default items and are associated with the *S/R Latch*"
+		"" "2. Connect both *Input A* and *Input B* into the funnel."
+		"" "3. Connect all inputs which you wish to *change active state* into *Input A*."
+		"" "4. Connect all inputs which you wish to *change polarity* into *Input B*."
+		"" ""
+		"" "**WARNING:**   "
+		"" "Do not press the emitter side of this item directly against a wall!"
+		"" ""
+		"" "**Cube Type:**   "
+		"" "*Cube Type* determines the angle of the funnel. All angles are measured against the vertical, along which the standard funnel emits. Note that Standard, Reflective, and Franken match the BEE2 angled geometry blocks."
+		"" "- *Standard* will place a shallow funnel that projects at about 26.57 degrees. The funnel will have slope 1/2."
+		"" "- *Companion* will place a funnel that projects at 30 degrees."
+		"" "- *Reflective* will place a medium funnel that projects at 45 degrees."
+		"" "- *Sphere* will place a funnel that projects at 60 degrees."
+		"" "- *Franken* will place a steep funnel that projects at about 63.43 degrees. The funnel will have slope 2."
+		"" ""
+		"" "**Start Enabled:**   "
+		"" "*When Checked*, the funnel will Start Enabled(tm)"
+		"" ""
+		"" "**Start Reversed:**   "
+		"" "*When Checked*, the funnel will Start Reversed(tm)"
+		"" ""
+		"" "**Start Open:**   "
+		"" "*When Checked*, the funnel will be repositioned (depending on cube type) such that it will predictably travel to the middle of voxel surfaces. *Using this option is recommended if you wish your funnel to project onto a portal surface.*   "
+		"" "If the description of each option is confusing, I would recommend trying it in several positions and examining how it hits portal surfaces.   "
+		"" "Below, *parallel* and *perpendicular* are with respect to the surface the funnel item is placed upon.   "
+		"" "- *Standard*, the shallow funnel, will be moved forwards slightly such that it hits the center of parallel surfaces."
+		"" "- *Companion* will be changed to a shallow funnel (as 30 degrees does not extend well for this purpose) and raised by a half-voxel such that it hits the center of perpendicular surfaces."
+		"" "- *Reflective*, the 45-degree funnel, will be moved forwards slightly such that it hits the center of perpendicular or parallel surfaces."
+		"" "- *Sphere* will be changed to a steep funnel (as 60 degrees does not extend well for this purpose) and raised by a quarter-voxel such that it hits the center of parallel surfaces."
+		"" "- *Franken*, the steep funnel, will be moved forwards slightly such that it hits the center of perpendicular surfaces."
+		}
+	"Ent_count"     "2-4"
+	"Icon"
+		{
+			"0"	"clean/aneonen/angfun.png"
+		}
+	}
+
+
+// The templates/instances for this item is my first endeavor into making a non-trivial item meant for distribution, so the implementation is not as efficient as it could be.
+// The templates, for example, derive from a single unrotated one, and as such many of them are sliced inefficiently and consume a few more brushes than necessary.
+// Textures do not always orient perfectly, (Though they should always line up) and I am content in letting all of them be black rather than introducing color variety (Colorpickers hardly work here and a white funnel would hardly ever make sense anyway.)
+
+// The displacements are odd, though somewhat necessary. I do not think there is a better way of making the funnel line up with portal surfaces. Unfortunately, some of them don`t properly use the embed space, making the item somewhat more weighty than it might need to be.
+//It's maybe worth noting that the funnel model slightly sticks out of the embedded voxel in a few variants. If the protrusion was 'above ground,' I tried to cover it with the template, and left it to the individual author to decide how to cover the rest. 
+
+//Since I made this item in 4.41, I didn't realize that Wii2's method for reversible models had been implemented in modern versions until I was a little too late. The old orange backing model had been removed, so it had to be reintroduced in this package for 4.42+ users. A future update could update the model to a modern form.

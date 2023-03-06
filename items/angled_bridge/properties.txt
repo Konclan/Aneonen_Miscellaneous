@@ -1,0 +1,45 @@
+"Properties"
+	{
+	"Authors"     "Aneonen, Konclan"
+	"Tags"        "Bridge;Light Bridge; LightBridge; Aneonen; Angled"
+	"Description" 
+		{
+		"" "An angled light bridge emitter. Angle is measured from the bridge itself with respect to the horizontal."
+		"" ""
+		"" "**WARNING**: Do not press this item's emitter directly against a wall!"
+		"" ""
+		"" "**Cube Type:**   "
+		"" "*Cube Type* determines the angle at which the emitter will project a bridge. All angles are measured with respect to the original bridge's vertical path."
+		"" "- *Cube* will position the emitter with the bridge extending at about 26.565 degrees, with a slope of 1/2."
+		"" "- *Companion* will position the emitter with the bridge extending at 30 degrees."
+		"" "- *Reflective* will position the emitter with the bridge extending at 45 degrees."
+		"" "- *Sphere* will position the emitter with the bridge extending at 60 degrees."
+		"" "- *Franken* will position the emitter with the bridge extending at about 63.435 degrees, with a slope of 2.   "
+		"" "Note that *cube*, *reflective*, and *franken* match the BEE geometry blocks."
+		"" ""
+		"" "**Start Reversed:**   "
+		"" "*When Checked*, the bridge will face towards the center of the voxel.   "
+		"" "*When Unchecked*, the bridge will face outwards from the voxel."
+		"" ""
+		"" "**Start Enabled:**   "
+		"" "*When Checked*, the bridge will start active."
+		"" ""
+		"" "**Start Open:**   "
+		"" "*When Checked*, the bridge's automatic portal magnet will remain enabled.   "
+		"" "*When Unchecked*, it will not appear.   "
+		"" "This option is included because the bridge's position is variable enough that sometimes standard puzzlemaker portal magnets will be insufficient."
+		"" ""
+		"" "Editor model taken from Konclan's Protruding Bridge."
+		}
+	"ent_count"   "1"
+	
+	"Icon"
+		{
+			"0"   "clean/aneonen/angbridge.png"
+		}
+	}
+
+//Konclan is listed as a contributor due to the use of their protruding bridge editor model - in general, I tried to credit the author of the editor model where applicable.
+
+//This item may want to see some updates in the future if users are having difficulty using it. Unlike the angled funnel, I figured that players could realistically find a way for their bridges to hit desired portal surfaces due to the flexibiltiy with which the bridge can be placed, but it is possible that I misjudged.
+//Sometimes I wonder whether it would be possible to always have an entity like the bridge 'point at' a target (like the camera,) which would allow for incredible flexibility. This would make templating the item difficult though, I think. 

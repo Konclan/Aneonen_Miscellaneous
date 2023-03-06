@@ -1,0 +1,41 @@
+"Properties"
+	{
+	"Authors"		"Aneonen"
+	"Tags"			"Portal 2; Test Elements; Funnel; Tractor Beam; Angled; Aneonen"
+	"infoURL"		"https://developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Tractor_Beam"
+	"Description"
+		{
+		"" "A large funnel emitter.   "
+		"" "Note that the funnel itself is *not* larger; only the emitter is. This item is a visual addition and has no special functionality.   "
+		"" "Must embed to more voxels than the standard funnel. Backing cannot change to orange when the funnel reverses."
+		"" ""
+		"" "**IMPORTANT:**   "
+		"" "This item uses *A/B Inputs* in order to control both the ability to change the funnel's active state and the funnel's polarity, as the normal interface cannot be transferred from the original funnel item.   "
+		"" "To connect inputs into this item:   "
+		"" "1. Place the *A/B Input* items into your map. They can be found among BEE's default items and are associated with the *S/R Latch*"
+		"" "2. Connect both *Input A* and *Input B* into the funnel."
+		"" "3. Connect all inputs which you wish to *change active state* into *Input A*."
+		"" "4. Connect all inputs which you wish to *change polarity* into *Input B*."
+		"" ""
+		"" "**WARNING:**   "
+		"" "Do not place the funnel directly next to a wall such that it can clip outside of the map. Do not allow antlines, indicators, etc. to roam onto the edges of the funnel."
+		"" ""
+		"" "**Start Enabled:**   "
+		"" "Same as default funnel item."
+		"" ""
+		"" "**Start Reversed:**   "
+		"" "Same as default funnel item."
+		}
+	"Ent_count"     "1-3"
+	"Icon"
+		{
+			"0"	"clean/aneonen/large_funnel.png"
+		}
+	}
+
+
+//Cute visual addition and nothing more.
+//I noticed recently that the model seems to spin a lot faster than the actual projected funnel - worth investigating, or natural consequence?
+//Can Wii2's method be applied to large funnels, so we could have an orange backing? Wouldn't be surprised. May want to check.
+
+//It might be possible to make the funnel frame more efficient. Right now it is chopped up so we can get visleaves to cut nicely on the inside of the funnel.

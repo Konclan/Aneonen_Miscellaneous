@@ -1,0 +1,217 @@
+"Item"
+{
+	"Type"		"ITEM_LARGE_FUNNEL_ANN"
+	"ItemClass"		"ItemTBeam"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Large Funnel"
+			"Model"
+			{
+				"ModelName"			"tbeam.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"			"LARGE FUNNEL"
+				"Image"			"palette/aneonen/large_funnel.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle"		"HANDLE_NONE"
+	}
+	"Properties"
+	{
+		"ConnectionCount"
+		{
+			"DefaultValue"		"0"
+			"Index"			"1"
+		}
+		"StartEnabled"
+		{
+			"DefaultValue"		"1"
+			"Index"			"2"
+		}
+		"StartReversed"
+		{
+			"DefaultValue"		"0"
+			"Index"			"3"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name"				"instances/bee2/clean/items/aneonen/large_funnel/funnel_large.vmf"
+				"EntityCount"		"1"
+				"BrushCount"		"3"
+				"BrushSideCount"	"22"
+			}
+			"1"
+			{
+				"Name"				"instances/bee2/clean/items/aneonen/dummy_vmf_large_fun_frame_white.vmf"
+				"EntityCount"		"1"
+				"BrushCount"		"3"
+				"BrushSideCount"	"22"
+			}
+			"2"
+			{
+				"Name"				"instances/bee2/clean/items/aneonen/dummy_vmf_large_fun_frame_black.vmf"
+				"EntityCount"		"1"
+				"BrushCount"		"3"
+				"BrushSideCount"	"22"
+			}
+		}
+
+		"TargetName"		"lrgfun"
+
+		//Effectively inherited from the standard beam item.
+		//The polarity model switching is tragically gone.
+		"Inputs"
+			{
+			"BEE2"
+				{
+				"Type"              "DUAL"
+				"SpawnFire"		  "Always"
+				//Need to initialize the lights!
+				"Sec_SpawnFire"	  "Always"
+				"DefaultDual"       "A"
+				
+				"InvertVar"         "$start_enabled"
+				"Enable_Cmd"        "bigbeam,Enable,,0.00,-1"
+				"Disable_Cmd"       "bigbeam,Disable,,0.00,-1"
+				
+				"Sec_InvertVar"     "$start_reversed"
+				"Sec_Enable_Cmd"    "bigbeam,SetLinearForce,$neg_force,0.00,-1"
+				"Sec_Enable_Cmd"    "light_orange,TurnOn,,0.00,-1"
+				"Sec_Enable_Cmd"    "light_blue,TurnOff,,0.00,-1"
+				"Sec_Disable_Cmd"   "bigbeam,SetLinearForce,$pos_force,0.00,-1"
+				"Sec_Disable_Cmd"   "light_orange,TurnOff,,0.00,-1"
+				"Sec_Disable_Cmd"   "light_blue,TurnOn,,0.00,-1"
+				}
+			}
+
+		"Offset"		"64 64 64"
+		"OccupiedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+				"Surface"
+				{
+					"Normal"	"0 0 1"
+				}
+			}
+		}
+		"EmbeddedVoxels"
+		{
+			//Must embed in 4 extra voxels around the center
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+			}
+			"Voxel"
+			{
+				"Pos"		"1 0 0"
+			}
+			"Voxel"
+			{
+				"Pos"		"0 1 0"
+			}
+			"Voxel"
+			{
+				"Pos"		"-1 0 0"
+			}
+			"Voxel"
+			{
+				"Pos"		"0 -1 0"
+			}
+		}
+		"EmbedFace"
+		{
+			//Will be manipulated by template later.
+			"Solid"
+			{
+				"Center"     "64 64 128"
+				"Dimensions" "128 128 4"
+				"Grid"       "4x4"
+			}
+		}
+
+		//TO DO: ConnectionPoints need to be expanded!
+		"ConnectionPoints"
+		{
+			// left
+			"Point"
+			{
+				"Dir"				"1 0 0"
+				"Pos"				"-3 3 0"
+				"SignageOffset"		"-4 2 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"1 0 0"
+				"Pos"				"-3 4 0"
+				"SignageOffset"		"-4 5 0"
+				"Priority"  "0"
+			}
+
+			// right
+			"Point"
+			{
+				"Dir"				"-1 0 0"
+				"Pos"				"10 3 0"
+				"SignageOffset"		"11 2 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"-1 0 0"
+				"Pos"				"10 4 0"
+				"SignageOffset"		"11 5 0"
+				"Priority"  "0"
+			}
+
+			// up
+			"Point"
+			{
+				"Dir"				"0 1 0"
+				"Pos"				"3 -3 0"
+				"SignageOffset"		"2 -4 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"0 1 0"
+				"Pos"				"4 -3 0"
+				"SignageOffset"		"5 -4 0"
+				"Priority"  "0"
+			}
+
+			// down
+			"Point"
+			{
+				"Dir"				"0 -1 0"
+				"Pos"				"3 10 0"
+				"SignageOffset"		"2 11 0"
+				"Priority"  "0"
+			}
+			"Point"
+			{
+				"Dir"				"0 -1 0"
+				"Pos"				"4 10 0"
+				"SignageOffset"		"5 11 0"
+				"Priority"  "0"
+			}
+		}
+	}
+}

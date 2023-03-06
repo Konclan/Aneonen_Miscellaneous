@@ -1,0 +1,134 @@
+"Item"
+	{
+	"ItemClass" "ItemButtonFloor"
+	"Type"      "ITEM_GLASSBOX_ANN"
+	"Editor"
+		{
+		"SubTypeProperty"		"ButtonType"
+		"SubType"
+			{
+			"Name"			"Cube Glass Box"
+			"Model"
+				{
+				"ModelName"	"bee2_block_2x2x2.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"CUBE GLASS BOX"
+				"Image"			"palette/aneonen/glassbox_cube.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.DropperEnabled"
+				"SOUND_DELETED"					"P2Editor.RemoveButton"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Oblong Glass Box"
+			"Model"
+				{
+				"ModelName"	"bee2_block_4x2x2.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip" "OBLONG GLASS BOX"
+				"Image"   "palette/aneonen/glassbox_oblong.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.DropperEnabled"
+				"SOUND_DELETED"					"P2Editor.RemoveButton"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Big Glass Box"
+			"Model"
+				{
+				"ModelName"	"bee2_block_flat_half.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"  "BIG GLASS BOX"
+				"Image"    "palette/aneonen/glassbox_bigflat.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.DropperEnabled"
+				"SOUND_DELETED"					"P2Editor.RemoveButton"
+				}
+			}
+		"MovementHandle"		"HANDLE_4_DIRECTIONS"
+		"OccupiesVoxel"         "0"
+		}
+	"Properties"
+		{
+		"ButtonType"
+			{
+			"DefaultValue"	"0"
+			"Index"			"0"
+			}
+		"CubeType"
+			{
+			"DefaultValue"	"0"
+			"Index"		"1"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name"				"instances/BEE2/aneonen/shave.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"1"
+				"BrushSideCount"	"6"
+				}
+			"1"
+				{
+				"Name"				"instances/BEE2/aneonen/and.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"1"
+				"BrushSideCount"	"6"
+				}
+			"2"
+				{
+				"Name"				"instances/BEE2/aneonen/a.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"1"
+				"BrushSideCount"	"6"
+				}
+			"3"
+				{
+				"Name"				"instances/BEE2/aneonen/haircut.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"1"
+				"BrushSideCount"	"6"
+				}
+			"4"
+				{
+				"Name"				"instances/BEE2/aneonen/two.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"1"
+				"BrushSideCount"	"6"
+				}
+			"5"
+				{
+				"Name"				"instances/BEE2/aneonen/bits.vmf"
+				"EntityCount"		"0"
+				"BrushCount"		"1"
+				"BrushSideCount"	"6"
+				}
+			}
+        "TargetName" "glsbx"
+        "Offset" "64 64 64"
+        }
+    }

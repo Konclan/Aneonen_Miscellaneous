@@ -1,0 +1,218 @@
+"ID"		"ANEONEN_MISC"
+"Name"	"Miscellaneous Aneonen Items"
+"Desc"      "Miscellaneous Aneonen items for distribution"
+
+//See Git's README for more information
+//Special comments on specific items can be found in their properties.txt files.
+
+"Item"
+	{
+	"ID" "ITEM_45_DEG_STAIRS_ANN"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "45_deg_stairs"
+			}
+		}
+	}
+
+
+"Item"
+	{
+	"ID"       "ITEM_LARGE_FUNNEL_ANN"
+	"all_conf"	"customfunnel"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"large_funnel"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"       "ITEM_ANGLED_FUNNEL_ANN"
+	"all_conf"	"customfunnel"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"angled_funnel"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"       "ITEM_ANGLED_BRIDGE_ANN"
+	"all_conf"	"angbridge"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"angled_bridge"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"       "ITEM_BLOCK_STEEP_FLIPPED_ANN"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"block_steep_flipped"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"       "ITEM_GLASSBOX_ANN"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"glassbox"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"       "ITEM_CHECK_PROPER_ANN"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"check_proper"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID"       "ITEM_TIMER_PROPER_ANN"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"timer_proper"
+			}
+		}
+	}
+
+
+
+
+//Calling my arrow signage 'HD' might be a little presumptuous, even if it is 512x512, but we need a unique name
+//	to set it apart from other UCP arrow signage. Adding 'ANN' or 'Aneonen' to the end wouldn't mean anything
+//	to actual players.
+
+"Signage"
+{
+    "ID" "SIGN_UARROW_ANN"
+    "Name" "Arrow Up HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/uarrow"
+            "icon" "items/clean/aneonen/uarrow.png"
+        }
+    }
+}
+"Signage"
+{
+    "ID" "SIGN_RARROW_ANN"
+    "Name" "Arrow Right HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/rarrow"
+            "icon" "items/clean/aneonen/rarrow.png"
+        }
+    }
+}
+"Signage"
+{
+    "ID" "SIGN_DARROW_ANN"
+    "Name" "Arrow Down HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/darrow"
+            "icon" "items/clean/aneonen/darrow.png"
+        }
+    }
+}
+"Signage"
+{
+    "ID" "SIGN_LARROW_ANN"
+    "Name" "Arrow Left HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/larrow"
+            "icon" "items/clean/aneonen/larrow.png"
+        }
+    }
+}
+"Signage"
+{
+    "ID" "SIGN_URARROW_ANN"
+    "Name" "Arrow Up-Right HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/urarrow"
+            "icon" "items/clean/aneonen/urarrow.png"
+        }
+    }
+}
+"Signage"
+{
+    "ID" "SIGN_ULARROW_ANN"
+    "Name" "Arrow Up-Left HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/ularrow"
+            "icon" "items/clean/aneonen/ularrow.png"
+        }
+    }
+}
+"Signage"
+{
+    "ID" "SIGN_DRARROW_ANN"
+    "Name" "Arrow Down-Right HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/drarrow"
+            "icon" "items/clean/aneonen/drarrow.png"
+        }
+    }
+}
+"Signage"
+{
+    "ID" "SIGN_DLARROW_ANN"
+    "Name" "Arrow Down-Left HD"
+    "Styles"
+    {
+        "BEE2_CLEAN"
+        {
+            "overlay" "BEE2/signage/aneonen/dlarrow"
+            "icon" "items/clean/aneonen/dlarrow.png"
+        }
+    }
+}

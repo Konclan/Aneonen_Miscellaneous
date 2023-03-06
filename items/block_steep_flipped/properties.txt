@@ -1,0 +1,22 @@
+"Properties"
+	{
+	"Authors"     "Aneonen, TeamSpen210"
+	"Tags"        "TeamSpen210;BEE 2;Partial Blocks;Aneonen;Flipped;60"
+	"Description" 
+		{
+		"" "Identical to the steep angled block found as the largest of the three standard sloped geometry blocks, but flipped on its back for easier placement.   "
+		"" "This item uses the same editor model as the shallow BEE angled geometry block, as it is effectively the same but raised by a half-voxel."
+		"" ""
+		"" "**Start Reversed:**   "
+		"" "*Start Reversed* will set the block to be the opposite color of the surface it sits upon. This option is finnicky and it is better to just change the color of the surface the block sits upon."
+		"" ""
+		"" "**Start Enabled:**   "
+		"" "When checked, *Start Enabled* will allow antlines, signage, and any other overlays to project onto the block's sloped surface."
+		}
+	"ent_count"   "0"
+	
+	"Icon"
+		{
+			"0"   "clean/aneonen/steep_block_flipped.png"
+		}
+	}

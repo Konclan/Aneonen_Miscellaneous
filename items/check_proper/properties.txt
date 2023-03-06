@@ -1,0 +1,28 @@
+"Properties"
+	{
+	"Authors"     "Aneonen, TeamSpen210"
+	"Tags"        "BEE2;Checkmark;Indicator;Check"
+	"Description" 
+		{
+		"" "A placeable checkmark indicator.   "
+		"" "Appears identical to the checkmark placed by standard puzzlemaker connections. Intended to be used in conjunction with the antline corner. Connection visibility should realistically always be set to none.   "
+		"" "When placed on a wall, the check will always orient upwards. When placed on a floor or ceiling, the check will always orient to face outwards."
+		"" ""
+		"" "**Start Enabled:**   "
+		"" "*When Checked*, the checkmark will begin enabled."
+		"" ""
+		"" "**Start Reversed:**   "
+		"" "*Start Reversed* changes the position of the indicator on the surface, as the quarter tile item does."
+		}
+	
+	"ent_count"   "1"
+	"Icon"
+		{
+		"0" "clean/aneonen/check_proper.png"
+		}
+	}
+
+
+//It's a bit unfortunate that this item doesn't always orient nicely towards a connection on the floor. I am not sure how to implement this without a clunky extra selection item. Maybe if the antline corner was edited something could happen, but that is beyond my area of 'expertise.'
+
+//It is extremely unlikely, but a few authors still use older BEE version, so in the _rare_ case that one of them wants to at least try to use this package, I included the quarter tile models. 
