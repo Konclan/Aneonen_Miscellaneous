@@ -4,7 +4,7 @@ This repository contains the Aneonen Miscellaneous package. Add it to BEE2 by do
 
 # Item List
 
-A thorough description the items and their functions. Ordered by significance.
+A thorough description of the items and their functions. Ordered by significance.
 
 ## Check and Timer Indicator Panels
 ![indicators](https://user-images.githubusercontent.com/126639978/222040993-ea444d0c-76eb-44ff-91de-be5094a3e063.jpg)
@@ -37,7 +37,7 @@ An angled bridge emitter that sits upon a sliced 1x4x1-tile block. The item is t
 The bridges can be positioned in 8 locations on a surface using the widget.   
 By selecting **Start Reversed**, the bridge emitter will face towards the center of the surface instead of away from it.   
 
-By unselecting **Start Opened**, the automatic portal magnet will disappear from the terminus of the bridge. This is useful if the bridge does not lines up well with an existing portal magnet.   
+By unselecting **Start Opened**, the automatic portal magnet will disappear from the terminus of the bridge. This is useful if the bridge lines up well with an existing portal magnet.   
 
 **Start Enabled** causes the bridge to start enabled.
 
