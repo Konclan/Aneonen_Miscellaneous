@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_map_editor/signage_indicator_unchecked"
+	$selfillum 1
+}

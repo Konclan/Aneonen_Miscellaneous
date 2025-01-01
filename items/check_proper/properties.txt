@@ -6,13 +6,14 @@
 		{
 		"" "A placeable checkmark indicator.   "
 		"" "Appears identical to the checkmark placed by standard puzzlemaker connections. Intended to be used in conjunction with the antline corner. Connection visibility should realistically always be set to none.   "
-		"" "When placed on a wall, the check will always orient upwards. When placed on a floor or ceiling, the check will always orient to face outwards."
+		"" "**Cube Type:**   "
+		"" "*Cube Type* will change the position between 1 of 4 tiles"
 		"" ""
 		"" "**Start Enabled:**   "
 		"" "*When Checked*, the checkmark will begin enabled."
 		"" ""
 		"" "**Start Reversed:**   "
-		"" "*Start Reversed* changes the position of the indicator on the surface, as the quarter tile item does."
+		"" "*Start Reversed* flips the orientation of the indicator"
 		}
 	
 	"ent_count"   "1"
